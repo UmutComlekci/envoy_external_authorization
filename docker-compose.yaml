@@ -3,8 +3,7 @@ services:
 
   envoy:
     build:
-      context: .
-      dockerfile: Dockerfile-envoy
+      context: envoyproxy
     networks:
       - envoymesh
     expose:
